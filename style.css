@@ -1,0 +1,25 @@
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    color: red;
+}
+
+#show_sketch{
+    float: right;
+}
+
+canvas{
+    border: 5px double red;
+    border-radius: 6px;
+    animation-name: example2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+}
+
+@keyframes example2{
+    from{box-shadow: 5px 5px 41px whitesmoke;}
+    to{box-shadow: 5px 5px 41px green;}
+}
